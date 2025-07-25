@@ -1,4 +1,7 @@
 package exception;
 
-public class DatoInvalidoException {
+public class DatoInvalidoException extends Exception {
+    public DatoInvalidoException(String mensaje) {
+        super(mensaje);
+    }
 }
